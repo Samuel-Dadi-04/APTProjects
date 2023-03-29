@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title> contact us page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384
+        -wvfXpqpZZVQGK6TAh5PV1GOFQNHSoD2xbE+QkPxCAF1NEevoEH3S10sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style2.css" />
+        
+    </head>
+    <body background="10.jpg" style="background: #505050;">
+        <section class="contact">
+            <div class="content" >
+                <h2>CONTACT US</h2>
+                <p>our college is the one of the top diploma college in andhrapradesh state,and follows the instructions made by 
+                    state board of technical education(sbtet) gives a best future for thousands of students every year.
+                </p>
+            </div>  
+            <div class="container">
+                <div class="contactinfo">
+                   <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>ADDRESS</h3>
+                            <p>yanam road</br>Jaggannaickpur,kakinada</br>Eastgodavari</br> Andhrapradesh,533002</p>
+                        </div>
+                    
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>phone</h3>
+                            <p>099123 42010</p>
+                        </div>
+                        
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>sivaprasadsiva9390@gmail.com</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="contactform">
+                        <form method="post" action="contactUsSubmit.php">
+                            
+                            <h2>Send Message</h2>
+                            <div class="inputbox">
+                                <input type="text" name="name" required="required">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="inputbox"> 
+                                <input type="text" name="email" required="required">
+                                <span> Email</span>
+                            </div>
+                            <div class="inputbox"> 
+                                <textarea  required="required" name="message"></textarea>
+                                <span>Type your message...</span>
+                            </div>
+                            <div class="inputbox"> 
+                                <input type="submit" name="" value="Send">
+                                <p id="mess" hidden>Your Message has been submitted to College Team, Will reach you soon...</p>
+                            </div>
+                            <div class="inputbox"> 
+                                 <input type="button" name="" value="Back" onclick="document.location.href='homepage.php'">
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                
+            
+        </section>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato'sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.course-section
+{
+    width: 100%;
+
+
+}
+.course-section .container
+{
+    width: 80%;
+    margin: auto;
+}
+.course-section .container .row{
+    width: 60%;
+    margin: auto;
+}
+.course-section .container .row .title{
+    text-align: center;
+    margin-top: 50px;
+}
+.course-section .container .row .title h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #ff7200;
+
+}
+.course-section .container .row .title p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    color: #fff;
+}
+.course-section .container .course-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.course-section .container .course-card .card{
+
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+}
+.course-section .container .course-card .card:hover{
+    background-color: #ff7200;
+    transition: 0.3s;
+}
+
+.course-section .container .course-card .card .image-section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid#fff;
+}
+.course-section .container .course-card .card .content{
+
+    width: 100%;
+    text-align: center;
+
+}
+.course-section .container .course-card .card .content h1{
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #639ab8;
+
+
+}
+.course-section .container .course-card .card .content p{
+    font-size: 15px;
+    margin: 16px 0px;
+    line-height: 1.5;
+    color:black;
+}
+@media screen and (max-width: 900px){
+    .course-section .container .content{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .course-section .container .content{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+
+
+    
